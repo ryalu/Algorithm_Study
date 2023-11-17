@@ -1,5 +1,6 @@
 ###Palindrome
+
 def Palindrome:
   sentence = str(input())
-  sentence = sentence.lower()
+  sentence = str(filter(str.isalpha, sentence.lower()))
   
